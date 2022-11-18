@@ -1,0 +1,105 @@
+/* //////////// */
+.header {
+    text-align: center;
+    position: relative;
+    }
+    .logo img {
+        width: 200px;
+        height: auto;
+    }
+
+.list-category {
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.categories {
+    /* margin: auto; */
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.name-category {
+    /* display: block; */
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    max-width: 200px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.name-category i {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.title-category {
+    margin-top: 10px;
+}
+
+#category-all {
+    background: #5089D7;
+    color: white;
+}
+#category-store {
+    background: #009A4B;
+    color: white;
+}
+#category-company {
+    background: #E2490D;
+    color: white;
+}
+#category-building {
+    background: #009079;
+    color: white;
+}
+#category-furniture {
+    background: #654D2D;
+    color: white;
+}
+#category-hotel {
+    background: #D8128E;
+    color: white;
+}
+#category-restaurant {
+    background: #00A6A9;
+    color: white;
+}
+#category-travel {
+    background: #8C1285;
+    color: white;
+}
+#category-vehicle {
+    background: #CC1010;
+    color: white;
+}
+#category-education {
+    background: #124AD6;
+    color: white;
+}
+#category-news {
+    background: #7334E2;
+    color: white;
+}
+#category-landingpage {
+    background: #CE471B;
+    color: white;
+}
+
